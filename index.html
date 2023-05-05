@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TTravelFree</title>
+    <link rel="stylesheet" href="fontawesome-free-6.3.0-web/css/all.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+<!-- header section starts  -->
+
+<header>
+
+    <div id="menu-bar" class="fas fa-bars"></div>
+
+    <a href="#" class="logo"><span>T</span>Travel<span>Free</span></a>
+
+    <nav class="navbar">
+        <a href="#home">Trang Chủ</a>
+        <a href="#book">Đặt lịch</a>
+        <a href="#packages">Gói</a>
+        <a href="#services">Dịch vụ</a>
+        <a href="#gallery">Thư viện</a>
+        <a href="#review">Đánh giá</a>
+        <a href="#contact">Liên hệ</a>
+    </nav>
+
+    <div class="icons">
+        <i class="fas fa-search" id="search-btn"></i>
+        <i class="fas fa-user" id="login-btn"></i>
+    </div>
+
+    <form action="" class="search-bar-container">
+        <input type="search" id="search-bar" placeholder="Tìm kiếm nơi bạn muốn đến">
+        <label for="search-bar" class="fas fa-search"></label>
+    </form>
+
+</header>
+
+<!-- header section ends -->
+
+<!-- login form container  -->
+
+<div class="login-form-container">
+
+    <i class="fas fa-times" id="form-close"></i>
+
+    <form action="">
+        <h3>Đăng nhập</h3>
+        <input type="email" class="box" placeholder="Nhập email của bạn">
+        <input type="password" class="box" placeholder="Nhập mật khẩu">
+        <input type="submit" value="Đăng nhập ngay" class="btn">
+        <input type="checkbox" id="remember">
+        <label for="remember">Ghi nhớ cho lần đăng nhập sau</label>
+        <p>Bạn quên mật khẩu <a href="#">Nhấn vào đây!</a></p>
+        <p>Chưa có tài khoản! <a href="dangky.html">Đăng ký ngay</a></p>
+    </form>
+
+</div>
+
+<!-- home section starts  -->
+
+<section class="home" id="home">
+
+    
+    <form id="register-form">
+        <h1>Đăng ký</h1>
+        <label for="name">Họ tên:</label>
+        <input type="text" id="name" name="name" required>
+        
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+        
+        <label for="password">Mật khẩu:</label>
+        <input type="password" id="password" name="password" required>
+        
+        <button type="submit">Đăng ký</button>
+      </form>
+
+    <div class="video-container">
+        <video src="images/video-home1.mp4" id="video-slider" loop autoplay muted></video>
+    </div>
+
+</section>
+
+</body>
+</html>
